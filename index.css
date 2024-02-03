@@ -1,25 +1,32 @@
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 html {
-  /*font-size: 10px;*/
-  background-color: antiquewhite;
+  font-size: 10px;
 }
 
-body {
-  margin: 0 auto;
-  background-color: whitesmoke;
-  padding: 1rem;
+#inputs {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 div {
-  width: 500px;
-  margin: 0 auto;
+  min-width: 320px;
+  max-width: 500px;
+  background-color: aqua;
+}
+
+table {
+  width: 100%;
 }
 
 input {
+  text-align: center;
+  width: 50%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
   border: 0;
+  height: 10rem;
 }
